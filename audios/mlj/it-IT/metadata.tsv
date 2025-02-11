@@ -1,0 +1,9 @@
+ID	Text	Normalized	Duration	NumWords	BertScore	BertScore.Backtranslate
+LJ017-0210	Il primo caso era quello della "Terra Fiorita,"	Il primo caso era quello della Terra Fiorita.	2.79	8	74.42	86.46
+LJ016-0341	Il malato era stolido e reticente agli ultimi.	Il malato era stolido e reticente agli ultimi.	3.15	8	74.17	76.17
+LJ016-0398	Come favore speciale.	Come favore speciale.	1.33	3	73.69	85.8
+LJ042-0158	ha lasciato una striscia molto media di indipendenza causata da negligenza.	ha lasciato una striscia molto media di indipendenza causata da negligenza.	4.62	11	61.0	78.91
+LJ027-0048	D'altra parte si trovano strutture perfettamente omologhe e tuttavia in nessun modo analoghe:	D'altra parte si trovano strutture perfettamente omologhe e tuttavia in nessun modo analoghe.	6.16	13	81.3	83.37
+LJ016-0335	Non c'è stata alcuna interferenza con la folla, che ha raccolto come al solito, anche se non in misura abituale.	Non c'è stata alcuna interferenza con la folla, che ha raccolto come al solito, anche se non in misura abituale.	7.15	20	76.13	98.86
+LJ030-0141	Un proiettile successivo, che era letale, ha distrutto il lato destro del cranio.	Un proiettile successivo, che era letale, ha distrutto il lato destro del cranio.	5.32	13	83.53	95.21
+LJ028-0218	Senza una schermaglia o una battaglia, permise loro di entrare in Babilonia e, risparmiando la città, gli consegnò il re Nabonide.	Senza una schermaglia o una battaglia, permise loro di entrare in Babilonia e, risparmiando la città, gli consegnò il re Nabonide.	9.02	21	83.66	96.46

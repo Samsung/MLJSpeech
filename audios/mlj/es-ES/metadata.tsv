@@ -1,0 +1,9 @@
+ID	Text	Normalized	Duration	NumWords	BertScore	BertScore.Backtranslate
+LJ017-0210	El primer caso fue el de la 'Flowery Land,'	El primer caso fue el de la Flowery Land.	2.68	9	86.64	89.76
+LJ016-0341	La víctima fue estupefacta y reticente hasta el final.	La víctima fue estupefacta y reticente hasta el final.	3.54	9	70.06	87.8
+LJ016-0398	Como un favor especial	Como un favor especial.	1.27	4	77.19	85.8
+LJ042-0158	dejó una racha muy mala de independencia provocada por el abandono.	dejó una racha muy mala de independencia provocada por el abandono.	4.16	11	68.63	88.97
+LJ027-0048	Por otro lado se encuentran estructuras que son perfectamente homólogas y, sin embargo, de ninguna manera análogas:	Por otro lado se encuentran estructuras que son perfectamente homólogas y, sin embargo, de ninguna manera análogas.	7.24	17	82.77	94.19
+LJ016-0335	No hubo interferencia con la multitud, que se recogía como de costumbre, aunque no en la medida habitual.	No hubo interferencia con la multitud, que se recogía como de costumbre, aunque no en la medida habitual.	6.63	18	78.59	98.46
+LJ030-0141	Una bala posterior, que fue letal, rompió el lado derecho de su cráneo.	Una bala posterior, que fue letal, rompió el lado derecho de su cráneo.	4.78	13	84.35	96.05
+LJ028-0218	Sin una escaramuza ni una batalla, les permitió entrar en Babilonia, y, ahorrando la ciudad, le entregó al rey Nabonido.	Sin una escaramuza ni una batalla, les permitió entrar en Babilonia, y, ahorrando la ciudad, le entregó al rey Nabonido.	8.36	20	87.32	96.14

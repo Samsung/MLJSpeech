@@ -1,0 +1,9 @@
+ID	Text	Normalized	Duration	NumWords	BertScore	BertScore.Backtranslate
+LJ017-0210	Pierwszym przypadkiem była "Kraina Kwiatów",	Pierwszym przypadkiem była Kraina Kwiatów.	2.39	5	68.73	85.57
+LJ016-0341	Cierpiący był oszołomiony i nieugięty do ostatniego.	Cierpiący był oszołomiony i nieugięty do ostatniego.	3.37	7	66.63	82.43
+LJ016-0398	Jako specjalna przysługa	Jako specjalna przysługa.	1.52	3	56.59	85.8
+LJ042-0158	Zostawił daleko idącą ścieżkę niezależności spowodowaną zaniedbaniem.	Zostawił daleko idącą ścieżkę niezależności spowodowaną zaniedbaniem.	4.76	7	60.8	69.43
+LJ027-0048	Z drugiej strony znajdują się struktury, które są całkowicie homologiczne, a jednak w żaden sposób analogiczne:	Z drugiej strony znajdują się struktury, które są całkowicie homologiczne, a jednak w żaden sposób analogiczne.	6.90	16	79.64	89.2
+LJ016-0335	Nie było żadnej ingerencji w tłum, który zbierał się jak zwykle, choć nie w zwyczajowym stopniu.	Nie było żadnej ingerencji w tłum, który zbierał się jak zwykle, choć nie w zwyczajowym stopniu.	5.94	16	73.46	93.69
+LJ030-0141	Następna kula, która była śmiertelna, rozbiła prawą stronę jego czaszki.	Następna kula, która była śmiertelna, rozbiła prawą stronę jego czaszki.	5.19	10	81.81	91.39
+LJ028-0218	Bez potyczki lub bitwy pozwolił im wejść do Babilonu, a oszczędzając miasto, dostarczył mu króla Nabonidusa.	Bez potyczki lub bitwy pozwolił im wejść do Babilonu, a oszczędzając miasto, dostarczył mu króla Nabonidusa.	7.35	16	84.17	94.84

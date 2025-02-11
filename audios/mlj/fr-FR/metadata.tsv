@@ -1,0 +1,9 @@
+ID	Text	Normalized	Duration	NumWords	BertScore	BertScore.Backtranslate
+LJ017-0210	La première affaire a été celle du «Flowery Land»,	La première affaire a été celle du Flowery Land.	2.87	9	82.12	85.38
+LJ016-0341	Le malade était stolide et répugnant jusqu'au dernier.	Le malade était stolide et répugnant jusqu'au dernier.	3.37	8	75.02	89.88
+LJ016-0398	Comme une faveur spéciale	Comme une faveur spéciale.	1.24	4	72.75	73.52
+LJ042-0158	a laissé une série d'indépendance bien moyenne provoquée par la négligence.	a laissé une série d' indépendance bien moyenne provoquée par la négligence.	4.48	11	65.86	79.61
+LJ027-0048	D'autre part, on trouve des structures qui sont parfaitement homologues et qui ne sont cependant nullement analogues:	D' autre part, on trouve des structures qui sont parfaitement homologues et qui ne sont cependant nullement analogues.	6.26	17	84.61	91.47
+LJ016-0335	Il n'y a pas eu d'interférence avec la foule, qui a recueilli comme d'habitude, mais pas dans la mesure habituelle.	Il n'y a pas eu d' interférence avec la foule, qui a recueilli comme d' habitude, mais pas dans la mesure habituelle.	6.16	20	77.23	98.45
+LJ030-0141	une balle, qui était mortelle, a brisé le côté droit de son crâne.	une balle, qui était mortelle, a brisé le côté droit de son crâne.	4.11	13	85.55	94.49
+LJ028-0218	Sans escarmouches ni batailles, il les permit d'entrer à Babylone, et, épargnant la ville, il lui livra le roi Nabonide.	Sans escarmouches ni batailles, il les permit d' entrer à Babylone, et, épargnant la ville, il lui livra le roi Nabonide.	7.30	20	86.53	97.76

@@ -1,0 +1,9 @@
+ID	Text	Normalized	Duration	NumWords	BertScore	BertScore.Backtranslate
+LJ017-0210	Der erste Fall war der des 'Blumenlandes'.	Der erste Fall war der des Blumenlandes.	2.51	7	77.85	88.74
+LJ016-0341	Der Leidende war bis zum Letzten stolid und zurückhaltend.	Der Leidende war bis zum Letzten stolid und zurückhaltend.	3.51	9	72.89	67.63
+LJ016-0398	Als besonderen Gefallen	Als besonderen Gefallen.	1.41	3	66.55	85.8
+LJ042-0158	eine durch Vernachlässigung herbeigeführte, weitaus gemeine Eigenständigkeit hinterlassen hat.	eine durch Vernachlässigung herbeigeführte, weitaus gemeine Eigenständigkeit hinterlassen hat.	6.18	9	59.1	86.23
+LJ027-0048	Auf der anderen Seite finden sich Strukturen, die vollkommen homologe und doch keineswegs analog sind:	Auf der anderen Seite finden sich Strukturen, die vollkommen homologe und doch keineswegs analog sind.	6.11	15	83.78	90.72
+LJ016-0335	Es gab keine Einmischung in die Menge, die sich wie üblich sammelte, wenn auch nicht im üblichen Ausmaß.	Es gab keine Einmischung in die Menge, die sich wie üblich sammelte, wenn auch nicht im üblichen Ausmaß.	6.53	18	76.99	88.37
+LJ030-0141	Eine spätere Kugel, die tödlich war, zerschmetterte die rechte Seite seines Schädels.	Eine spätere Kugel, die tödlich war, zerschmetterte die rechte Seite seines Schädels.	5.66	12	83.88	98.66
+LJ028-0218	Ohne einen Kampf oder eine Schlacht, erlaubte er ihnen, nach Babylon zu kommen, und als er die Stadt sparte, übergab er ihm den König Nabonidus.	Ohne einen Kampf oder eine Schlacht, erlaubte er ihnen, nach Babylon zu kommen, und als er die Stadt sparte, übergab er ihm den König Nabonidus.	9.28	25	87.48	94.47

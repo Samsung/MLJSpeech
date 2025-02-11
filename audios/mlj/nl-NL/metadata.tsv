@@ -1,0 +1,9 @@
+ID	Text	Normalized	Duration	NumWords	BertScore	BertScore.Backtranslate
+LJ017-0210	De eerste zaak was die van het 'Flowy Land'.	De eerste zaak was die van het Flowy Land.	2.52	9	79.64	83.35
+LJ016-0341	De patiënt was gestold en terughoudend ten opzichte van de laatste.	De patiënt was gestold en terughoudend ten opzichte van de laatste.	4.34	11	70.94	69.29
+LJ016-0398	Als een speciale gunst	Als een speciale gunst.	1.38	4	66.92	85.8
+LJ042-0158	De Voorzitter. - Aan de orde is de gecombineerde beraadslaging over:	De Voorzitter, Aan de orde is de gecombineerde beraadslaging over.	4.30	11	47.46	51.83
+LJ027-0048	Aan de andere kant worden gevonden structuren die perfect homologe en toch op geen enkele manier analoog zijn:	Aan de andere kant worden gevonden structuren die perfect homologe en toch op geen enkele manier analoog zijn.	6.03	18	80.96	94.07
+LJ016-0335	Er was geen interferentie met de menigte, die verzamelde zoals gewoonlijk, hoewel niet in de gebruikelijke mate.	Er was geen interferentie met de menigte, die verzamelde zoals gewoonlijk, hoewel niet in de gebruikelijke mate.	7.13	17	77.2	99.22
+LJ030-0141	Een volgende kogel, die dodelijk was, verbrijzelde de rechterkant van zijn schedel.	Een volgende kogel, die dodelijk was, verbrijzelde de rechterkant van zijn schedel.	5.17	12	81.98	93.32
+LJ028-0218	Zonder een schermutseling of een strijd, liet hij hen Babylon binnen, en, het redden van de stad, gaf hij de koning Nabonidus aan hem.	Zonder een schermutseling of een strijd, liet hij hen Babylon binnen, en, het redden van de stad, gaf hij de koning Nabonidus aan hem.	8.60	24	84.29	96.81

@@ -1,0 +1,239 @@
+<style>
+    body {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-left: 150px;
+        margin-right: 150px;
+        line-height: 1.6;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+    }
+
+    audio {
+        max-width: 100%;
+        display: block;
+    }
+
+    table {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+
+    th {
+        text-align: left;
+        font-size: 24px;
+        white-space: nowrap;
+    }
+
+    td {
+        font-size: 16px;
+    }
+
+    .tr-spacer {
+        height: 10px;
+    }
+
+    .td-spacer {
+        width: 10px;
+    }
+
+    li {
+        font-size: 16px;
+    }
+
+    .title {
+        width: 100%;
+        text-align: center;
+        font-size: 32px;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+
+    .abstract {
+        text-align: justify;
+        font-size: 24px;
+        margin-bottom: 2em;
+    }
+
+    .abstract-title {
+        text-align: left;
+        font-size: 24px;
+    }
+
+    .plots {
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin-bottom: 2em;
+    }
+
+    .plot-caption {
+        flex: 1;
+        text-align: center;
+        margin: 0;
+        font-size: 16px;
+    }
+
+    img {
+        max-height: 200px;
+        width: 100%;
+        object-fit: contain;
+    }
+</style>
+
+<div class="title">
+    <b>Building a Multilingual Single-Speaker Dataset <br> via Cross-Lingual Voice Cloning from LJSpeech</b>
+</div>
+
+
+<div class="abstract">
+    <div class="abstract-title">
+        <b>Abstract</b>
+    </div>
+    Speech synthesis models transform written text into lifelike, natural-sounding speech. However, even in multilingual systems,
+    they often produce different voices for each language due to the lack of robust cross-lingual datasets and benchmarks. 
+    In this work, we introduce the MLJSpeech corpus, a multilingual dataset created by translating and voice-cloning the widely 
+    used LJSpeech dataset into multiple languages. To evaluate the quality of MLJSpeech, we conducted a Mean Opinion Score (MOS) assessment, 
+    achieving high perceptual quality across all target languages. The original LJSpeech received a MOS of 4.71&plusmn;0.51, while our 
+    synthesized dataset maintained comparable performance across languages, like French 4.41&plusmn;0.71. MLJSpeech represents a significant 
+    step toward advancing cross-lingual TTS systems and fostering inclusivity in multilingual speech synthesis research.
+</div>
+
+<div class="plots">
+    <div class="plot-caption">
+        <img src="./images/mlj/mljspeech_bert_score.png" alt="Figure 1">
+        <p><b>Figure 1</b>: Multilingual and back translation BERT scores.</p>
+    </div>
+    <div class="plot-caption">
+        <img src="./images/mlj/mljspeech_wer_simm_score.png" alt="Table 1">
+        <p><b>Table 1</b>: Evaluation of correctness and coherence of synthesized and original en-US audios.</p>
+    </div>
+    <div class="plot-caption">
+        <img src="./images/mlj/mljspeech_human_mos.png" alt="Figure 2">
+        <p><b>Figure 2</b>: Human Mean Opinion Scores on LJSpeech and MLJSpeech.</p>
+    </div>
+</div>
+
+ <table>
+  <tr>
+    <th>Original ID</th>
+    <th>Text</th>
+    <th>en-US</th>
+    <th></th>
+    <th>de-DE</th>
+    <th>es-ES</th>
+    <th>fr-FR</th>
+    <th>it-IT</th>
+    <th>nl-NL</th>
+    <th>pl-PL</th>
+  </tr>
+  <tr class="tr-spacer"></tr>
+  <tr>
+    <td>LJ016-0341</td>
+    <td><i>The sufferer was stolid and reticent to the last.</i></td>
+    <td><audio controls src="./audios/mlj/en-US/audio/LJ016-0341.wav"></td>
+    <td class="td-spacer"></td>
+    <td><audio controls src="./audios/mlj/de-DE/audio/LJ016-0341.wav"></td>
+    <td><audio controls src="./audios/mlj/es-ES/audio/LJ016-0341.wav"></td>
+    <td><audio controls src="./audios/mlj/fr-FR/audio/LJ016-0341.wav"></td>
+    <td><audio controls src="./audios/mlj/it-IT/audio/LJ016-0341.wav"></td>
+    <td><audio controls src="./audios/mlj/nl-NL/audio/LJ016-0341.wav"></td>
+    <td><audio controls src="./audios/mlj/pl-PL/audio/LJ016-0341.wav"></td>
+  </tr>
+  <tr class="tr-spacer"></tr>
+  <tr>
+    <td>LJ016-0398</td>
+    <td><i>As a special favor.</i></td>
+    <td><audio controls src="./audios/mlj/en-US/audio/LJ016-0398.wav"></td>
+    <td class="td-spacer"></td>
+    <td><audio controls src="./audios/mlj/de-DE/audio/LJ016-0398.wav"></td>
+    <td><audio controls src="./audios/mlj/es-ES/audio/LJ016-0398.wav"></td>
+    <td><audio controls src="./audios/mlj/fr-FR/audio/LJ016-0398.wav"></td>
+    <td><audio controls src="./audios/mlj/it-IT/audio/LJ016-0398.wav"></td>
+    <td><audio controls src="./audios/mlj/nl-NL/audio/LJ016-0398.wav"></td>
+    <td><audio controls src="./audios/mlj/pl-PL/audio/LJ016-0398.wav"></td>
+  </tr>
+  <tr class="tr-spacer"></tr>
+  <tr>
+    <td>LJ017-0210</td>
+    <td><i>The first case was that of the 'Flowery Land'.</i></td>
+    <td><audio controls src="./audios/mlj/en-US/audio/LJ017-0210.wav"></td>
+    <td class="td-spacer"></td>
+    <td><audio controls src="./audios/mlj/de-DE/audio/LJ017-0210.wav"></td>
+    <td><audio controls src="./audios/mlj/es-ES/audio/LJ017-0210.wav"></td>
+    <td><audio controls src="./audios/mlj/fr-FR/audio/LJ017-0210.wav"></td>
+    <td><audio controls src="./audios/mlj/it-IT/audio/LJ017-0210.wav"></td>
+    <td><audio controls src="./audios/mlj/nl-NL/audio/LJ017-0210.wav"></td>
+    <td><audio controls src="./audios/mlj/pl-PL/audio/LJ017-0210.wav"></td>
+  </tr>
+  <tr class="tr-spacer"></tr>
+  <tr>
+    <td>LJ016-0335</td>
+    <td><i>There was no interference with the crowd, which collected as usual, although not to the customary extent.</i></td>
+    <td><audio controls src="./audios/mlj/en-US/audio/LJ016-0335.wav"></td>
+    <td class="td-spacer"></td>
+    <td><audio controls src="./audios/mlj/de-DE/audio/LJ016-0335.wav"></td>
+    <td><audio controls src="./audios/mlj/es-ES/audio/LJ016-0335.wav"></td>
+    <td><audio controls src="./audios/mlj/fr-FR/audio/LJ016-0335.wav"></td>
+    <td><audio controls src="./audios/mlj/it-IT/audio/LJ016-0335.wav"></td>
+    <td><audio controls src="./audios/mlj/nl-NL/audio/LJ016-0335.wav"></td>
+    <td><audio controls src="./audios/mlj/pl-PL/audio/LJ016-0335.wav"></td>
+  </tr>
+  <tr class="tr-spacer"></tr>
+  <tr>
+    <td>LJ027-0048</td>
+    <td><i>On the other hand are found structures which are perfectly homologous and yet in no way analogous.</i></td>
+    <td><audio controls src="./audios/mlj/en-US/audio/LJ027-0048.wav"></td>
+    <td class="td-spacer"></td>
+    <td><audio controls src="./audios/mlj/de-DE/audio/LJ027-0048.wav"></td>
+    <td><audio controls src="./audios/mlj/es-ES/audio/LJ027-0048.wav"></td>
+    <td><audio controls src="./audios/mlj/fr-FR/audio/LJ027-0048.wav"></td>
+    <td><audio controls src="./audios/mlj/it-IT/audio/LJ027-0048.wav"></td>
+    <td><audio controls src="./audios/mlj/nl-NL/audio/LJ027-0048.wav"></td>
+    <td><audio controls src="./audios/mlj/pl-PL/audio/LJ027-0048.wav"></td>
+  </tr>
+  <tr class="tr-spacer"></tr>
+  <tr>
+    <td>LJ028-0218</td>
+    <td><i>Without a skirmish or a battle, he permitted them to enter Babylon, and, sparing the city, he delivered the King Nabonidus to him.</i></td>
+    <td><audio controls src="./audios/mlj/en-US/audio/LJ028-0218.wav"></td>
+    <td class="td-spacer"></td>
+    <td><audio controls src="./audios/mlj/de-DE/audio/LJ028-0218.wav"></td>
+    <td><audio controls src="./audios/mlj/es-ES/audio/LJ028-0218.wav"></td>
+    <td><audio controls src="./audios/mlj/fr-FR/audio/LJ028-0218.wav"></td>
+    <td><audio controls src="./audios/mlj/it-IT/audio/LJ028-0218.wav"></td>
+    <td><audio controls src="./audios/mlj/nl-NL/audio/LJ028-0218.wav"></td>
+    <td><audio controls src="./audios/mlj/pl-PL/audio/LJ028-0218.wav"></td>
+  </tr>
+  <tr class="tr-spacer"></tr>
+  <tr>
+    <td>LJ042-0158</td>
+    <td><i>Left a far mean streak of independence brought on by neglect.</i></td>
+    <td><audio controls src="./audios/mlj/en-US/audio/LJ042-0158.wav"></td>
+    <td class="td-spacer"></td>
+    <td><audio controls src="./audios/mlj/de-DE/audio/LJ042-0158.wav"></td>
+    <td><audio controls src="./audios/mlj/es-ES/audio/LJ042-0158.wav"></td>
+    <td><audio controls src="./audios/mlj/fr-FR/audio/LJ042-0158.wav"></td>
+    <td><audio controls src="./audios/mlj/it-IT/audio/LJ042-0158.wav"></td>
+    <td><audio controls src="./audios/mlj/nl-NL/audio/LJ042-0158.wav"></td>
+    <td><audio controls src="./audios/mlj/pl-PL/audio/LJ042-0158.wav"></td>
+  </tr>
+  <tr class="tr-spacer"></tr>
+  <tr>
+    <td>LJ030-0141</td>
+    <td><i>A subsequent bullet, which was lethal, shattered the right side of his skull.</i></td>
+    <td><audio controls src="./audios/mlj/en-US/audio/LJ030-0141.wav"></td>
+    <td class="td-spacer"></td>
+    <td><audio controls src="./audios/mlj/de-DE/audio/LJ030-0141.wav"></td>
+    <td><audio controls src="./audios/mlj/es-ES/audio/LJ030-0141.wav"></td>
+    <td><audio controls src="./audios/mlj/fr-FR/audio/LJ030-0141.wav"></td>
+    <td><audio controls src="./audios/mlj/it-IT/audio/LJ030-0141.wav"></td>
+    <td><audio controls src="./audios/mlj/nl-NL/audio/LJ030-0141.wav"></td>
+    <td><audio controls src="./audios/mlj/pl-PL/audio/LJ030-0141.wav"></td>
+  </tr>
+</table>
+
+
+<b><a href="https://keithito.com/LJ-Speech-Dataset/">LJSpeech</a></b> is a widely used dataset in the Text-to-Speech (TTS) domain. 
+It comprises approximately 24 hours of recordings from a single speaker reading passages from English non-fiction books. 
+The audio was originally recorded as part of the LibriVox project, with both the audio and text being released into the public domain. 
+Since its release, LJSpeech has been extensively utilized to demonstrate various advancements in TTS systems.
