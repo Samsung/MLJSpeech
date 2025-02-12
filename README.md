@@ -28,7 +28,7 @@ MLJSpeech represents a significant step toward advancing cross-lingual TTS syste
 | **LJ016-0398** | *As a special favor.* | [🔊](./audios/mlj/en-US/audio/LJ016-0398.wav) | [🔊](./audios/mlj/de-DE/audio/LJ016-0398.wav) | [🔊](./audios/mlj/es-ES/audio/LJ016-0398.wav) | [🔊](./audios/mlj/fr-FR/audio/LJ016-0398.wav) | [🔊](./audios/mlj/it-IT/audio/LJ016-0398.wav) | [🔊](./audios/mlj/nl-NL/audio/LJ016-0398.wav) | [🔊](./audios/mlj/pl-PL/audio/LJ016-0398.wav) |
 | **LJ017-0210** | *The first case was that of the 'Flowery Land'.* | [🔊](./audios/mlj/en-US/audio/LJ017-0210.wav) | [🔊](./audios/mlj/de-DE/audio/LJ017-0210.wav) | [🔊](./audios/mlj/es-ES/audio/LJ017-0210.wav) | [🔊](./audios/mlj/fr-FR/audio/LJ017-0210.wav) | [🔊](./audios/mlj/it-IT/audio/LJ017-0210.wav) | [🔊](./audios/mlj/nl-NL/audio/LJ017-0210.wav) | [🔊](./audios/mlj/pl-PL/audio/LJ017-0210.wav) |
 
-(For a full list of samples, visit the [project webpage](https://pages.github.com/Samsung/MLJSpeech).)
+(For a full list of samples, visit the [project webpage](https://samsung.github.io/MLJSpeech/).)
 
 ## About LJSpeech
 [LJSpeech](https://keithito.com/LJ-Speech-Dataset/) is a widely used dataset in the Text-to-Speech (TTS) domain. It comprises approximately **24 hours** of recordings from a single speaker reading passages from English non-fiction books. The audio was originally recorded as part of the **LibriVox** project, with both the audio and text being released into the **public domain**. Since its release, LJSpeech has been extensively utilized to demonstrate various advancements in TTS systems.
